@@ -10,7 +10,7 @@ months expenses array. As some months will be under budget they will be able to 
 transfer to occur. At the end of the program two outcomes can occur, either the program balances every months budget without
 issues and account is fully balanced or, due to the fact that these are randomly generated expenses some months expenses will
 not be moveable as no other month has enough space to take them on. In either case the program catches these outcomes and 
-notifies the user when this occurs.
+notifies the user when this occurs. This project recieved a perfect mark from my instructor.
 
 Breakdown of outputs:
 
