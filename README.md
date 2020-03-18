@@ -1,16 +1,8 @@
 # JavaScript-Project
 This program was created for the final project of the SE2202A JavaScript course taken by all second year Software Engineering
-students at Western University. The task given by the instructor was to create an accounting program that was able to rearrange 
-the expenses of an individuals account so that each month their budget would balance. As the project gave alot of room for interpretation 
-of how to complete the task I decided to take the most realistic approach to the problem.The program initially randomly creates 
-an expense array and a random budget between a reasonable range for each month. Furthermore, the program scans through each 
-month to find which ones need their expenses to moved so that their expenses can be less than or equal to their budget for 
-that month. The program will then remove however many expenses neccessary to create this balance and transfer them to another
-months expenses array. As some months will be under budget they will be able to take on more expenses thus allowing for this
-transfer to occur. At the end of the program two outcomes can occur, either the program balances every months budget without
-issues and account is fully balanced or, due to the fact that these are randomly generated expenses some months expenses will
-not be moveable as no other month has enough space to take them on. In either case the program catches these outcomes and 
-notifies the user when this occurs. This project recieved a perfect mark from my instructor.
+students at Western University. The task given by the instructor was to create an accounting program that was able to rearrange an individuals expenses for the year in order to balance their budget on a monthly basis. 
+
+The program begins by creating 12 budget accounts with random monthly revenues and expenses within a reasonable range. It then finds the months that are over budget, identifies these months to the user with the exact expenses that need to be moved. The program then finds months that can take on more expenses, and moves over budget expenses to these months. Thus the account is balanced. The program utilizes various Immediately Invokable Functions Expressions (IIFE) in order to make the runtime quicker.
 
 Breakdown of outputs:
 
