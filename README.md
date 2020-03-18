@@ -2,6 +2,13 @@
 This program was created for the final project of the SE2202A JavaScript course taken by all second year Software Engineering
 students at Western University. The task given by the instructor was to create an accounting program that was able to rearrange an individuals expenses for the year in order to balance their budget on a monthly basis. 
 
+
+[Homework3, Budget, Balance]
+
+This program runs with three key files, Homework3 acts as the main, Budget and Balance supply classes needed for the program. This program was created as an altenate to Project1 to utilize asynchronous programming and Promise statements to increase performance and responsiveness of the system. As the program runs Promise statements are utilized for the importing of Budget and Balance into Homework3, while dependant parts of the program wait for these files to be imported other parts can execute thus increasing efficiency.
+
+
+[Project1]
 The program begins by creating 12 budget accounts with random monthly revenues and expenses within a reasonable range. It then finds the months that are over budget, identifies these months to the user with the exact expenses that need to be moved. The program then finds months that can take on more expenses, and moves over budget expenses to these months. Thus the account is balanced. The program utilizes various Immediately Invokable Functions Expressions (IIFE) in order to make the runtime quicker.
 
 Breakdown of outputs:
